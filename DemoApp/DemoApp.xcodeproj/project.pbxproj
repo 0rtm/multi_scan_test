@@ -62,6 +62,7 @@
 		ACCF12FD2499350400B8A114 /* SomeOtherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SomeOtherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACCF12FF2499350400B8A114 /* SomeOtherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeOtherUITests.swift; sourceTree = "<group>"; };
 		ACCF13012499350400B8A114 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACCF13072499385E00B8A114 /* UITestsB.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = UITestsB.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +102,7 @@
 			children = (
 				ACCF12F8249934DE00B8A114 /* UnitTests.xctestplan */,
 				ACCF12F7249934B600B8A114 /* UITestsA.xctestplan */,
+				ACCF13072499385E00B8A114 /* UITestsB.xctestplan */,
 				ACCF12C62499349A00B8A114 /* DemoApp */,
 				ACCF12DD2499349E00B8A114 /* DemoAppTests */,
 				ACCF12E82499349E00B8A114 /* DemoAppUITests */,

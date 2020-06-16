@@ -1,6 +1,6 @@
 version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
-options: "8e80c0de1d5d4b33116e249378fc9f01"
-build_time: [1592327459, 252731000]
+options: "b6252a8bc18a39e1b1d9773c9e8ec6cb"
+build_time: [1592328339, 153340000]
 inputs:
   "/Users/artem/Developer/multi_scan/DemoApp/DemoApp/ViewController.swift": [1592327450, 562141954]
   "/Users/artem/Developer/multi_scan/DemoApp/DemoApp/AppDelegate.swift": [1592327450, 543990941]

@@ -5,6 +5,75 @@
 	<key>logFormatVersion</key>
 	<integer>10</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>62E152C4-460E-4A8D-92D6-F26D8810B7F3</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>62E152C4-460E-4A8D-92D6-F26D8810B7F3.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>DemoApp project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>DemoApp</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Testing project DemoApp with scheme DemoApp</string>
+			<key>timeStartedRecording</key>
+			<real>614021716.96894801</real>
+			<key>timeStoppedRecording</key>
+			<real>614021718.11895299</real>
+			<key>title</key>
+			<string>Testing project DemoApp with scheme DemoApp</string>
+			<key>uniqueIdentifier</key>
+			<string>62E152C4-460E-4A8D-92D6-F26D8810B7F3</string>
+		</dict>
+		<key>7028627E-8D2D-45E3-8CB4-E0AD625B85B1</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>7028627E-8D2D-45E3-8CB4-E0AD625B85B1.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>DemoApp project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>DemoApp</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Testing project DemoApp with scheme DemoApp</string>
+			<key>timeStartedRecording</key>
+			<real>614021624.77406502</real>
+			<key>timeStoppedRecording</key>
+			<real>614021625.94507897</real>
+			<key>title</key>
+			<string>Testing project DemoApp with scheme DemoApp</string>
+			<key>uniqueIdentifier</key>
+			<string>7028627E-8D2D-45E3-8CB4-E0AD625B85B1</string>
+		</dict>
+	</dict>
 </dict>
 </plist>
