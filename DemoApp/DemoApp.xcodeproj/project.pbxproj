@@ -52,6 +52,8 @@
 		984BE02D17B6D92F965C35A9 /* Pods_DemoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		984FDBE06BD977D8404D2696 /* Pods_DemoAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC5C0BE224994574001705FC /* UITestsC.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = UITestsC.xctestplan; sourceTree = "<group>"; };
+		AC5C0BE32499584A001705FC /* TestPlan2CA.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = TestPlan2CA.xctestplan; sourceTree = "<group>"; };
+		AC5C0BE424995855001705FC /* TestPlan2C.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = TestPlan2C.xctestplan; sourceTree = "<group>"; };
 		ACCF12C42499349A00B8A114 /* DemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACCF12C72499349A00B8A114 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACCF12C92499349A00B8A114 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -196,6 +198,8 @@
 				ACCF12F7249934B600B8A114 /* UITestsA.xctestplan */,
 				ACCF13072499385E00B8A114 /* UITestsB.xctestplan */,
 				AC5C0BE224994574001705FC /* UITestsC.xctestplan */,
+				AC5C0BE32499584A001705FC /* TestPlan2CA.xctestplan */,
+				AC5C0BE424995855001705FC /* TestPlan2C.xctestplan */,
 			);
 			path = TestPlans;
 			sourceTree = "<group>";

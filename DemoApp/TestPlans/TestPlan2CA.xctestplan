@@ -1,7 +1,7 @@
 {
   "configurations" : [
     {
-      "id" : "01747144-7650-4F13-941C-75D3347D5B75",
+      "id" : "23EA9593-4787-4B76-B289-88D776D62353",
       "name" : "Configuration 1",
       "options" : {
 
@@ -13,11 +13,6 @@
   },
   "testTargets" : [
     {
-      "parallelizable" : true,
-      "skippedTests" : [
-        "DemoAppUITests\/testExample()",
-        "DemoAppUITests\/testLaunchPerformance()"
-      ],
       "target" : {
         "containerPath" : "container:DemoApp.xcodeproj",
         "identifier" : "ACCF12E42499349E00B8A114",

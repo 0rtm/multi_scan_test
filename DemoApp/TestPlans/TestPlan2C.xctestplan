@@ -1,7 +1,7 @@
 {
   "configurations" : [
     {
-      "id" : "01747144-7650-4F13-941C-75D3347D5B75",
+      "id" : "97C3776C-954F-4D7C-9FAC-63975DD2071D",
       "name" : "Configuration 1",
       "options" : {
 
@@ -13,15 +13,14 @@
   },
   "testTargets" : [
     {
-      "parallelizable" : true,
       "skippedTests" : [
-        "DemoAppUITests\/testExample()",
-        "DemoAppUITests\/testLaunchPerformance()"
+        "SomeOtherUITests\/testExample01()",
+        "SomeOtherUITests\/testLaunchPerformance()"
       ],
       "target" : {
         "containerPath" : "container:DemoApp.xcodeproj",
-        "identifier" : "ACCF12E42499349E00B8A114",
-        "name" : "DemoAppUITests"
+        "identifier" : "ACCF12FC2499350400B8A114",
+        "name" : "SomeOtherUITests"
       }
     }
   ],

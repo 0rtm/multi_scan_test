@@ -63,14 +63,14 @@ platform :ios do
   		output_types: 'junit',
   		workspace:Dir.entries('..').select {|f| f=~ /.*\.xcworkspace/ }[0],
   		output_directory: './reports',
-  		output_files: 'UITestsC.junit',
-  		scheme:'DemoApp',
+  		output_files: 'TestPlan2C.junit',
+  		scheme:'SomeOtherScheme',
   		try_count: 3,
   		xcargs: "ONLY_ACTIVE_ARCH=YES",
   		parallel_testrun_count: 2,
   		reset_simulator: true,
   		prelaunch_simulator: true,
-  		testplan: 'UITestsC',
+  		testplan: 'TestPlan2C',
   		fail_build: true)
   end
 
