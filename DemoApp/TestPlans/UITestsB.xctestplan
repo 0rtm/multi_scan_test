@@ -1,0 +1,25 @@
+{
+  "configurations" : [
+    {
+      "id" : "C3A808F0-CC86-460F-8EF1-14D86807A1E1",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:DemoApp.xcodeproj",
+        "identifier" : "ACCF12FC2499350400B8A114",
+        "name" : "SomeOtherUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

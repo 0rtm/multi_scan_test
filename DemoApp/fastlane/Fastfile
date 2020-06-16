@@ -23,14 +23,34 @@ platform :ios do
 
   lane :ui_test1 do
   	multi_scan(
-  		scheme:"DemoApp",
-  		testplan: "UITestsA")
+  		clean: true,
+  		code_coverage: true,
+  		output_types: 'junit',
+  		workspace:'DemoApp.xcworkspace',
+  		scheme:'DemoApp',
+  		try_count: 3,
+  		xcargs: "ONLY_ACTIVE_ARCH=YES",
+  		output_files: './report/UITestsA.junit',
+  		parallel_testrun_count: 2,
+  		reset_simulator: true,
+  		prelaunch_simulator: true,
+  		testplan: 'UITestsA')
   end
 
   lane :ui_test2 do
   	multi_scan(
-  		scheme:"DemoApp",
-  		testplan: "UITestsB")
+  		clean: true,
+  		code_coverage: true,
+  		output_types: 'junit',
+  		workspace:'DemoApp.xcworkspace',
+  		output_files: './report/UITestsB.junit',
+  		scheme:'DemoApp',
+  		try_count: 3,
+  		xcargs: "ONLY_ACTIVE_ARCH=YES",
+  		parallel_testrun_count: 2,
+  		reset_simulator: true,
+  		prelaunch_simulator: true,
+  		testplan: 'UITestsB')
   end
 
 end

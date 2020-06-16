@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>00C573ED-181B-47B5-A549-70FF9A265D29</key>
+		<key>8B21C346-ECCF-4826-A58A-C33A39E2AB4A</key>
 		<dict>
 			<key>className</key>
 			<string>IDESchemeActionsInvocationRecord</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>com.apple.dt.unit.cocoaUnitTest</string>
 			<key>fileName</key>
-			<string>Test-Transient Testing-2020.06.16_13-26-31--0400.xcresult</string>
+			<string>Test-Transient Testing-2020.06.16_13-45-55--0400.xcresult</string>
 			<key>hasCoverageData</key>
 			<true/>
 			<key>hasPrimaryLog</key>
@@ -34,13 +34,13 @@
 			<key>signature</key>
 			<string>Test Transient Testing</string>
 			<key>timeStartedRecording</key>
-			<real>614021191.55383694</real>
+			<real>614022355.005</real>
 			<key>timeStoppedRecording</key>
 			<real>0.0</real>
 			<key>title</key>
 			<string>Test Transient Testing</string>
 			<key>uniqueIdentifier</key>
-			<string>00C573ED-181B-47B5-A549-70FF9A265D29</string>
+			<string>8B21C346-ECCF-4826-A58A-C33A39E2AB4A</string>
 		</dict>
 	</dict>
 </dict>

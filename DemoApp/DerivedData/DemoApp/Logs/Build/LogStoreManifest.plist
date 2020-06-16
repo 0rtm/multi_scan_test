@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>62E152C4-460E-4A8D-92D6-F26D8810B7F3</key>
+		<key>4B8135D5-75D0-4A0A-9042-02AF1DEAA611</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>62E152C4-460E-4A8D-92D6-F26D8810B7F3.xcactivitylog</string>
+			<string>4B8135D5-75D0-4A0A-9042-02AF1DEAA611.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -30,17 +30,17 @@
 			<key>schemeIdentifier-sharedScheme</key>
 			<integer>1</integer>
 			<key>signature</key>
-			<string>Testing project DemoApp with scheme DemoApp</string>
+			<string>Cleaning workspace DemoApp with scheme DemoApp</string>
 			<key>timeStartedRecording</key>
-			<real>614021716.96894801</real>
+			<real>614023237.975842</real>
 			<key>timeStoppedRecording</key>
-			<real>614021718.11895299</real>
+			<real>614023238.27704895</real>
 			<key>title</key>
-			<string>Testing project DemoApp with scheme DemoApp</string>
+			<string>Cleaning workspace DemoApp with scheme DemoApp</string>
 			<key>uniqueIdentifier</key>
-			<string>62E152C4-460E-4A8D-92D6-F26D8810B7F3</string>
+			<string>4B8135D5-75D0-4A0A-9042-02AF1DEAA611</string>
 		</dict>
-		<key>7028627E-8D2D-45E3-8CB4-E0AD625B85B1</key>
+		<key>E289EA80-65FA-4ECD-B359-36778282AE9D</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
@@ -49,7 +49,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>7028627E-8D2D-45E3-8CB4-E0AD625B85B1.xcactivitylog</string>
+			<string>E289EA80-65FA-4ECD-B359-36778282AE9D.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -64,15 +64,15 @@
 			<key>schemeIdentifier-sharedScheme</key>
 			<integer>1</integer>
 			<key>signature</key>
-			<string>Testing project DemoApp with scheme DemoApp</string>
+			<string>Cleaning workspace DemoApp with scheme DemoApp</string>
 			<key>timeStartedRecording</key>
-			<real>614021624.77406502</real>
+			<real>614023312.13566995</real>
 			<key>timeStoppedRecording</key>
-			<real>614021625.94507897</real>
+			<real>614023312.38194597</real>
 			<key>title</key>
-			<string>Testing project DemoApp with scheme DemoApp</string>
+			<string>Cleaning workspace DemoApp with scheme DemoApp</string>
 			<key>uniqueIdentifier</key>
-			<string>7028627E-8D2D-45E3-8CB4-E0AD625B85B1</string>
+			<string>E289EA80-65FA-4ECD-B359-36778282AE9D</string>
 		</dict>
 	</dict>
 </dict>
