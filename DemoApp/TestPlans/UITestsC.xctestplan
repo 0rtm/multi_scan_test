@@ -1,0 +1,28 @@
+{
+  "configurations" : [
+    {
+      "id" : "01747144-7650-4F13-941C-75D3347D5B75",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "skippedTests" : [
+        "DemoAppUITests\/testExample()",
+        "DemoAppUITests\/testLaunchPerformance()"
+      ],
+      "target" : {
+        "containerPath" : "container:DemoApp.xcodeproj",
+        "identifier" : "ACCF12E42499349E00B8A114",
+        "name" : "DemoAppUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

@@ -27,7 +27,7 @@ platform :ios do
   		code_coverage: true,
   		output_types: 'junit',
   		output_directory: './reports',
-  		workspace:'DemoApp.xcworkspace',
+  		workspace: Dir.entries('..').select {|f| f=~ /.*\.xcworkspace/ }[0],
   		scheme:'DemoApp',
   		try_count: 3,
   		xcargs: "ONLY_ACTIVE_ARCH=YES",
@@ -35,7 +35,8 @@ platform :ios do
   		parallel_testrun_count: 2,
   		reset_simulator: true,
   		prelaunch_simulator: true,
-  		testplan: 'UITestsA')
+  		testplan: 'UITestsA',
+  		fail_build: true)
   end
 
   lane :ui_test2 do
@@ -43,7 +44,7 @@ platform :ios do
   		clean: true,
   		code_coverage: true,
   		output_types: 'junit',
-  		workspace:'DemoApp.xcworkspace',
+  		workspace: Dir.entries('..').select {|f| f=~ /.*\.xcworkspace/ }[0],
   		output_directory: './reports',
   		output_files: 'UITestsB.junit',
   		scheme:'DemoApp',
@@ -52,7 +53,25 @@ platform :ios do
   		parallel_testrun_count: 2,
   		reset_simulator: true,
   		prelaunch_simulator: true,
-  		testplan: 'UITestsB')
+  		testplan: 'UITestsB',
+  		fail_build: true)
+  end
+  lane :ui_test3 do
+  	multi_scan(
+  		clean: true,
+  		code_coverage: true,
+  		output_types: 'junit',
+  		workspace:Dir.entries('..').select {|f| f=~ /.*\.xcworkspace/ }[0],
+  		output_directory: './reports',
+  		output_files: 'UITestsC.junit',
+  		scheme:'DemoApp',
+  		try_count: 3,
+  		xcargs: "ONLY_ACTIVE_ARCH=YES",
+  		parallel_testrun_count: 2,
+  		reset_simulator: true,
+  		prelaunch_simulator: true,
+  		testplan: 'UITestsC',
+  		fail_build: true)
   end
 
 end

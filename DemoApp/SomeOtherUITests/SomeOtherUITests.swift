@@ -23,7 +23,7 @@ class SomeOtherUITests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testExample() throws {
+    func testExample01() throws {
         // UI tests must launch the application that they test.
         let app = XCUIApplication()
         app.launch()
@@ -32,7 +32,7 @@ class SomeOtherUITests: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
 
-    func testExample2() throws {
+    func testExample02() throws {
         // UI tests must launch the application that they test.
         let app = XCUIApplication()
         app.launch()
